@@ -9,12 +9,12 @@ import Article from "./pages/Article";
 import BlogList from "./pages/BlogList";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
-import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import Portfolio from "./pages/Portfolio";
-import PortfolioForm from "./pages/PortfolioForm";
-import Blog from "./pages/Blog";
-import BlogForm from "./pages/BlogForm";
+import Login from "./pages/admin/Login";
+import Dashboard from "./pages/admin/Dashboard";
+import Portfolio from "./pages/admin/Portfolio";
+import PortfolioForm from "./pages/admin/PortfolioForm";
+import Blog from "./pages/admin/Blog";
+import BlogForm from "./pages/admin/BlogForm";
 
 
 const queryClient = new QueryClient();

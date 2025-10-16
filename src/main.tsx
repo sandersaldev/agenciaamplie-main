@@ -1,12 +1,5 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
-import Login from "./pages/Login"
-import Dashboard from "./pages/Dashboard"
+import { createRoot } from "react-dom/client";
+import App from "./App.tsx";
+import "./index.css";
 
-const router = createBrowserRouter([
-  { path: "/", element: <Login /> },
-  { path: "/dashboard", element: <Dashboard /> },
-])
-
-export function App() {
-  return <RouterProvider router={router} />
-}
+createRoot(document.getElementById("root")!).render(<App />);

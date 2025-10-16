@@ -10,11 +10,11 @@ import BlogList from "./pages/BlogList";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import Login from "./pages/admin/Login";
-import Dashboard from "./pages/admin/Dashboard";
-import Portfolio from "./pages/admin/Portfolio";
-import PortfolioForm from "./pages/admin/PortfolioForm";
-import Blog from "./pages/admin/Blog";
-import BlogForm from "./pages/admin/BlogForm";
+import Dashboard from ".admin/Dashboard";
+import Portfolio from "./admin/Portfolio";
+import PortfolioForm from "./admin/PortfolioForm";
+import Blog from "./admin/Blog";
+import BlogForm from "./admin/BlogForm";
 
 
 const queryClient = new QueryClient();
